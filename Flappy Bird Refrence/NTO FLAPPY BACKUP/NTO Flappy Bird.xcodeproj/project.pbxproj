@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		712259671C8E4E14007E9BFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712259661C8E4E14007E9BFC /* AppDelegate.swift */; };
+		712259691C8E4E14007E9BFC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 712259681C8E4E14007E9BFC /* GameScene.sks */; };
+		7122596B1C8E4E14007E9BFC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7122596A1C8E4E14007E9BFC /* GameScene.swift */; };
+		7122596D1C8E4E15007E9BFC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7122596C1C8E4E15007E9BFC /* GameViewController.swift */; };
+		712259701C8E4E15007E9BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7122596E1C8E4E15007E9BFC /* Main.storyboard */; };
+		712259721C8E4E15007E9BFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 712259711C8E4E15007E9BFC /* Images.xcassets */; };
+		712259751C8E4E15007E9BFC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712259731C8E4E15007E9BFC /* LaunchScreen.xib */; };
+		712259811C8E4E15007E9BFC /* NTO_Flappy_BirdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712259801C8E4E15007E9BFC /* NTO_Flappy_BirdTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7122597B1C8E4E15007E9BFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 712259591C8E4E14007E9BFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 712259601C8E4E14007E9BFC;
+			remoteInfo = "NTO Flappy Bird";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		712259611C8E4E14007E9BFC /* NTO Flappy Bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NTO Flappy Bird.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		712259651C8E4E14007E9BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		712259661C8E4E14007E9BFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		712259681C8E4E14007E9BFC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		7122596A1C8E4E14007E9BFC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		7122596C1C8E4E15007E9BFC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7122596F1C8E4E15007E9BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		712259711C8E4E15007E9BFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		712259741C8E4E15007E9BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7122597A1C8E4E15007E9BFC /* NTO Flappy BirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NTO Flappy BirdTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7122597F1C8E4E15007E9BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		712259801C8E4E15007E9BFC /* NTO_Flappy_BirdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTO_Flappy_BirdTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7122595E1C8E4E14007E9BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		712259771C8E4E15007E9BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		712259581C8E4E14007E9BFC = {
+			isa = PBXGroup;
+			children = (
+				712259631C8E4E14007E9BFC /* NTO Flappy Bird */,
+				7122597D1C8E4E15007E9BFC /* NTO Flappy BirdTests */,
+				712259621C8E4E14007E9BFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		712259621C8E4E14007E9BFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				712259611C8E4E14007E9BFC /* NTO Flappy Bird.app */,
+				7122597A1C8E4E15007E9BFC /* NTO Flappy BirdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		712259631C8E4E14007E9BFC /* NTO Flappy Bird */ = {
+			isa = PBXGroup;
+			children = (
+				712259661C8E4E14007E9BFC /* AppDelegate.swift */,
+				712259681C8E4E14007E9BFC /* GameScene.sks */,
+				7122596A1C8E4E14007E9BFC /* GameScene.swift */,
+				7122596C1C8E4E15007E9BFC /* GameViewController.swift */,
+				7122596E1C8E4E15007E9BFC /* Main.storyboard */,
+				712259711C8E4E15007E9BFC /* Images.xcassets */,
+				712259731C8E4E15007E9BFC /* LaunchScreen.xib */,
+				712259641C8E4E14007E9BFC /* Supporting Files */,
+			);
+			path = "NTO Flappy Bird";
+			sourceTree = "<group>";
+		};
+		712259641C8E4E14007E9BFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				712259651C8E4E14007E9BFC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7122597D1C8E4E15007E9BFC /* NTO Flappy BirdTests */ = {
+			isa = PBXGroup;
+			children = (
+				712259801C8E4E15007E9BFC /* NTO_Flappy_BirdTests.swift */,
+				7122597E1C8E4E15007E9BFC /* Supporting Files */,
+			);
+			path = "NTO Flappy BirdTests";
+			sourceTree = "<group>";
+		};
+		7122597E1C8E4E15007E9BFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7122597F1C8E4E15007E9BFC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		712259601C8E4E14007E9BFC /* NTO Flappy Bird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 712259841C8E4E15007E9BFC /* Build configuration list for PBXNativeTarget "NTO Flappy Bird" */;
+			buildPhases = (
+				7122595D1C8E4E14007E9BFC /* Sources */,
+				7122595E1C8E4E14007E9BFC /* Frameworks */,
+				7122595F1C8E4E14007E9BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NTO Flappy Bird";
+			productName = "NTO Flappy Bird";
+			productReference = 712259611C8E4E14007E9BFC /* NTO Flappy Bird.app */;
+			productType = "com.apple.product-type.application";
+		};
+		712259791C8E4E15007E9BFC /* NTO Flappy BirdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 712259871C8E4E15007E9BFC /* Build configuration list for PBXNativeTarget "NTO Flappy BirdTests" */;
+			buildPhases = (
+				712259761C8E4E15007E9BFC /* Sources */,
+				712259771C8E4E15007E9BFC /* Frameworks */,
+				712259781C8E4E15007E9BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7122597C1C8E4E15007E9BFC /* PBXTargetDependency */,
+			);
+			name = "NTO Flappy BirdTests";
+			productName = "NTO Flappy BirdTests";
+			productReference = 7122597A1C8E4E15007E9BFC /* NTO Flappy BirdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		712259591C8E4E14007E9BFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Grant Fischer";
+				TargetAttributes = {
+					712259601C8E4E14007E9BFC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					712259791C8E4E15007E9BFC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 712259601C8E4E14007E9BFC;
+					};
+				};
+			};
+			buildConfigurationList = 7122595C1C8E4E14007E9BFC /* Build configuration list for PBXProject "NTO Flappy Bird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 712259581C8E4E14007E9BFC;
+			productRefGroup = 712259621C8E4E14007E9BFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				712259601C8E4E14007E9BFC /* NTO Flappy Bird */,
+				712259791C8E4E15007E9BFC /* NTO Flappy BirdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7122595F1C8E4E14007E9BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712259751C8E4E15007E9BFC /* LaunchScreen.xib in Resources */,
+				712259721C8E4E15007E9BFC /* Images.xcassets in Resources */,
+				712259691C8E4E14007E9BFC /* GameScene.sks in Resources */,
+				712259701C8E4E15007E9BFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		712259781C8E4E15007E9BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7122595D1C8E4E14007E9BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7122596B1C8E4E14007E9BFC /* GameScene.swift in Sources */,
+				7122596D1C8E4E15007E9BFC /* GameViewController.swift in Sources */,
+				712259671C8E4E14007E9BFC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		712259761C8E4E15007E9BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712259811C8E4E15007E9BFC /* NTO_Flappy_BirdTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7122597C1C8E4E15007E9BFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 712259601C8E4E14007E9BFC /* NTO Flappy Bird */;
+			targetProxy = 7122597B1C8E4E15007E9BFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7122596E1C8E4E15007E9BFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7122596F1C8E4E15007E9BFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		712259731C8E4E15007E9BFC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				712259741C8E4E15007E9BFC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		712259821C8E4E15007E9BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		712259831C8E4E15007E9BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		712259851C8E4E15007E9BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NTO Flappy Bird/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		712259861C8E4E15007E9BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NTO Flappy Bird/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		712259881C8E4E15007E9BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NTO Flappy BirdTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTO Flappy Bird.app/NTO Flappy Bird";
+			};
+			name = Debug;
+		};
+		712259891C8E4E15007E9BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NTO Flappy BirdTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTO Flappy Bird.app/NTO Flappy Bird";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7122595C1C8E4E14007E9BFC /* Build configuration list for PBXProject "NTO Flappy Bird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				712259821C8E4E15007E9BFC /* Debug */,
+				712259831C8E4E15007E9BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		712259841C8E4E15007E9BFC /* Build configuration list for PBXNativeTarget "NTO Flappy Bird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				712259851C8E4E15007E9BFC /* Debug */,
+				712259861C8E4E15007E9BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		712259871C8E4E15007E9BFC /* Build configuration list for PBXNativeTarget "NTO Flappy BirdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				712259881C8E4E15007E9BFC /* Debug */,
+				712259891C8E4E15007E9BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 712259591C8E4E14007E9BFC /* Project object */;
+}
