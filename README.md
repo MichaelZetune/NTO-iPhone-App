@@ -6,7 +6,10 @@ Part 1:
 
 ![GIF not loaded](https://github.com/Oblivion00/NTO-iPhone-App/blob/master/NTO1.gif)
 
+
+
 Part 2:
+
 ![GIF not loaded](https://github.com/Oblivion00/NTO-iPhone-App/blob/master/NTO2.gif)
 
 ## Acknowledgements
