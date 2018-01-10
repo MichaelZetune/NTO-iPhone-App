@@ -13,13 +13,13 @@ An informational app I created in 2015 for NTO, a region of a worldwide youth gr
 ## Demonstration
 Part 1:
 
-![GIF not loaded](https://github.com/Oblivion00/NTO-iPhone-App/blob/master/NTO1.gif)
+![GIF not loaded](https://github.com/MichaelZetune/NTO-iPhone-App/blob/master/NTO1.gif)
 
 
 
 Part 2:
 
-![GIF not loaded](https://github.com/Oblivion00/NTO-iPhone-App/blob/master/NTO2.gif)
+![GIF not loaded](https://github.com/MichaelZetune/NTO-iPhone-App/blob/master/NTO2.gif)
 
 ## Acknowledgements
 As with my Plano Band app, I thank Paul Solt and his Intro to Swift course for teaching me the fundamentals of Apple's IDE and language.
