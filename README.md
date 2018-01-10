@@ -25,3 +25,4 @@ Part 2:
 As with my Plano Band app, I thank Paul Solt and his Intro to Swift course for teaching me the fundamentals of Apple's IDE and language.
 
 Both the flappy bird game and the space game reuse some code from other developers, namely fullstackio and and Paul Solt, respectively.
+
